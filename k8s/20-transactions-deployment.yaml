@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: transactions
-          image: ghcr.io/maxmengw/module6-part3-transactions:1a91d9b00794da67b6f0c6192e2d4e0c06335464
+          image: ghcr.io/maxmengw/module6-part3-transactions:fd650ffceb056be6876e6299df81816d83e1e03d
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
