@@ -5,7 +5,7 @@ metadata:
   labels:
     app: backend
 spec:
-  replicas: 2
+  replicas: 3
   revisionHistoryLimit: 2
   selector:
     matchLabels:
@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: backend
-          image: ghcr.io/maxmengw/module6-part3-backend:bc4a726e225eecbd6c279087e2905e3977d8db9f
+          image: ghcr.io/maxmengw/module6-part3-backend:852b97558c1b8c9f4f3f1e92431bb4235b3502c0
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
